@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idlog"
+        android:icon="@mipmap/ic_bitacora_foreground"
+        android:title="@string/logs"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/idupdate"
+        android:icon="@mipmap/ic_sincronizar_foreground"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_backup"
+        android:orderInCategory="0"
+        android:title="@string/backup"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>
